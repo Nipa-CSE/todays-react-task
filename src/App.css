@@ -1,3 +1,8 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +40,71 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container
+{
+  margin: 0 auto;
+  padding : 5px 00px;
+  border: 2px solid blueviolet;
+  width: 95.5%;
+  font-size: 18px;
+  background-color:coral;
+  
+  
+}
+.abv
+{
+  display: flex;
+  text-align: left;
+  
+}
+.abv li
+{
+  list-style: none;
+  padding: 10px 10px;
+}
+.abv a 
+{
+  text-decoration: none;
+  color: rgb(51, 18, 170);
+}
+.footdiv
+{
+  margin: 0 auto;
+  padding : 5px 00px;
+  border: 2px solid blueviolet;
+  width: 95.5%;
+  font-size: 18px;
+  background-color: orange;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+  
+}
+.div1
+{
+  text-align: left;
+  font-size: 15px;
+  padding: 10px 15px;
+  color: #020266;
+}
+.div1 a
+{
+  text-decoration: none;
+}
+.img
+{
+  width: 10px;
+  height: 10px;
+}
+.copyr
+{
+  margin: 0 auto;
+  padding : 5px 0px;
+  border: 2px solid blueviolet;
+  width: 95.5%;
+  background-color: rgb(3, 21, 102);
+  font-size: 20px; 
+  color: coral;
 }
